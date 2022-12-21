@@ -1,0 +1,82 @@
+*{
+    background: cover, grey;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    justify-content: center;
+    background: hsl(90deg 19% 85%);
+    background-size: cover;
+    background-position: center;
+  }
+
+.white-box{
+    padding: 25px 60px;
+    background: white;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    justify-content: left;
+    text-align: left;
+    box-shadow: 3px;
+}
+
+img{
+    margin-bottom: -15px;
+}
+
+header{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    font-family: "Segoe UI Webfont","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+}
+
+.input-field{
+    border-bottom: 1px solid blue;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    position: relative;
+    height: 50px;
+   width: 100%; 
+}
+
+.input-field input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.button input[type="submit"] {
+    position: relative right;
+    border: none;
+    padding: 9px 50px;
+    font-size: 18px;
+    background-color: hsl(206deg 100% 36%);
+    cursor: pointer;
+    color: white;
+}
+
+.button .inner{
+    color: white;
+}
+
+.button{
+    position: right;
+    right: 100%;
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+}
